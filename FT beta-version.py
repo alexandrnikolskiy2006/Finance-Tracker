@@ -610,10 +610,6 @@ ExitButton.place(x=BUTTON_X, y=550)
 Line = tk.Label(win, bg=FONT_COLOR, padx=0, pady=317,)
 Line.place(x=750, y=70)
 
-# --- Update Date ---
-version = tk.Label(win, text='FT 13.12.24', font=('Arial', 20, 'bold'), fg=FONT_COLOR, bg=WIN_BG_COLOR) 
-version.place(x=1230, y=730)
-
 # --- Balance ---
 image5 = Image.open(script_dir + "/images/balance.png")
 balanceimg = ImageTk.PhotoImage(image5)
